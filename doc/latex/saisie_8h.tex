@@ -1,0 +1,166 @@
+\hypertarget{saisie_8h}{}\section{saisie.\+h File Reference}
+\label{saisie_8h}\index{saisie.\+h@{saisie.\+h}}
+
+
+Fichier d\textquotesingle{}en-\/tête du fichier \hyperlink{saisie_8c}{saisie.\+c}.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{saisie_8h_ad145077a56ecb44961c944017eefcd5e}\label{saisie_8h_ad145077a56ecb44961c944017eefcd5e}} 
+\#define {\bfseries int\+\_\+N}~20
+\item 
+\mbox{\Hypertarget{saisie_8h_ae0ea04cb975f746888e92f78e401072e}\label{saisie_8h_ae0ea04cb975f746888e92f78e401072e}} 
+\#define {\bfseries int\+\_\+C}~30
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{saisie_8h_a357a8e2dfd40c3f9503ec9768377d89f}{saisie\+Entier} (void)
+\begin{DoxyCompactList}\small\item\em Fonction utilisée pour effectuer une saisie d\textquotesingle{}un entier de la part de l\textquotesingle{}utilisateur qui vérifie également cette entrée et la renvoie si elle est correcte. \end{DoxyCompactList}\item 
+float \hyperlink{saisie_8h_a63535bb5a282a3fd9210f52fe737a4c0}{saisie\+Float} (void)
+\begin{DoxyCompactList}\small\item\em Fonction utilisée pour effectuer une saisie d\textquotesingle{}un point flottant de la part de l\textquotesingle{}utilisateur qui vérifie également cette entrée et la renvoie si elle est correcte. \end{DoxyCompactList}\item 
+void \hyperlink{saisie_8h_a44a8548b1b3afc9bd43df8f67752e565}{saisie\+Tab1d\+Ent} (int tint\+\_\+tab\mbox{[}int\+\_\+N\mbox{]})
+\begin{DoxyCompactList}\small\item\em Procédure utilisée pour effectuer une saisie d\textquotesingle{}un tableau de dimension 1 d\textquotesingle{}entier. \end{DoxyCompactList}\item 
+void \hyperlink{saisie_8h_a439f49ae002a8171bdf974f02f1aaa22}{saisie\+Tab1d\+Flt} (float tflt\+\_\+tab\mbox{[}int\+\_\+N\mbox{]})
+\begin{DoxyCompactList}\small\item\em Procédure utilisée pour effectuer une saisie d\textquotesingle{}un tableau de dimension 1 de réels. \end{DoxyCompactList}\item 
+void \hyperlink{saisie_8h_a56eeeb19c548488bdd28797786dfe26c}{saisie\+Tab\+Vect\+Ent} (int tint\+\_\+tab1\mbox{[}int\+\_\+N\mbox{]}, int tint\+\_\+tab2\mbox{[}int\+\_\+N\mbox{]})
+\begin{DoxyCompactList}\small\item\em Procédure utilisée pour effectuer une saisie de deux vecteurs de dimension 3 d\textquotesingle{}entiers. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Fichier d\textquotesingle{}en-\/tête du fichier \hyperlink{saisie_8c}{saisie.\+c}. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.fr}{\tt rigauxdavi@eisti.\+fr} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+16 Nov. 2017 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{saisie_8h_a357a8e2dfd40c3f9503ec9768377d89f}\label{saisie_8h_a357a8e2dfd40c3f9503ec9768377d89f}} 
+\index{saisie.\+h@{saisie.\+h}!saisie\+Entier@{saisie\+Entier}}
+\index{saisie\+Entier@{saisie\+Entier}!saisie.\+h@{saisie.\+h}}
+\subsubsection{\texorpdfstring{saisie\+Entier()}{saisieEntier()}}
+{\footnotesize\ttfamily int saisie\+Entier (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Fonction utilisée pour effectuer une saisie d\textquotesingle{}un entier de la part de l\textquotesingle{}utilisateur qui vérifie également cette entrée et la renvoie si elle est correcte. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+int\+\_\+entree \+: valeur entrée 
+\end{DoxyReturn}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+16 Nov. 2017 
+\end{DoxyDate}
+\mbox{\Hypertarget{saisie_8h_a63535bb5a282a3fd9210f52fe737a4c0}\label{saisie_8h_a63535bb5a282a3fd9210f52fe737a4c0}} 
+\index{saisie.\+h@{saisie.\+h}!saisie\+Float@{saisie\+Float}}
+\index{saisie\+Float@{saisie\+Float}!saisie.\+h@{saisie.\+h}}
+\subsubsection{\texorpdfstring{saisie\+Float()}{saisieFloat()}}
+{\footnotesize\ttfamily float saisie\+Float (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Fonction utilisée pour effectuer une saisie d\textquotesingle{}un point flottant de la part de l\textquotesingle{}utilisateur qui vérifie également cette entrée et la renvoie si elle est correcte. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+flt\+\_\+entree \+: valeur entrée 
+\end{DoxyReturn}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+16 Nov. 2017 
+\end{DoxyDate}
+\mbox{\Hypertarget{saisie_8h_a44a8548b1b3afc9bd43df8f67752e565}\label{saisie_8h_a44a8548b1b3afc9bd43df8f67752e565}} 
+\index{saisie.\+h@{saisie.\+h}!saisie\+Tab1d\+Ent@{saisie\+Tab1d\+Ent}}
+\index{saisie\+Tab1d\+Ent@{saisie\+Tab1d\+Ent}!saisie.\+h@{saisie.\+h}}
+\subsubsection{\texorpdfstring{saisie\+Tab1d\+Ent()}{saisieTab1dEnt()}}
+{\footnotesize\ttfamily void saisie\+Tab1d\+Ent (\begin{DoxyParamCaption}\item[{int}]{tint\+\_\+tab\mbox{[}int\+\_\+\+N\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Procédure utilisée pour effectuer une saisie d\textquotesingle{}un tableau de dimension 1 d\textquotesingle{}entier. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em int} & tint\+\_\+tab\mbox{[}int\+\_\+N\mbox{]} \+: tableau d\textquotesingle{}entier dans lequel nous saisissons nos valeurs \\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+16 Nov. 2017 
+\end{DoxyDate}
+\mbox{\Hypertarget{saisie_8h_a439f49ae002a8171bdf974f02f1aaa22}\label{saisie_8h_a439f49ae002a8171bdf974f02f1aaa22}} 
+\index{saisie.\+h@{saisie.\+h}!saisie\+Tab1d\+Flt@{saisie\+Tab1d\+Flt}}
+\index{saisie\+Tab1d\+Flt@{saisie\+Tab1d\+Flt}!saisie.\+h@{saisie.\+h}}
+\subsubsection{\texorpdfstring{saisie\+Tab1d\+Flt()}{saisieTab1dFlt()}}
+{\footnotesize\ttfamily void saisie\+Tab1d\+Flt (\begin{DoxyParamCaption}\item[{float}]{tflt\+\_\+tab\mbox{[}int\+\_\+\+N\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Procédure utilisée pour effectuer une saisie d\textquotesingle{}un tableau de dimension 1 de réels. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em float} & tflt\+\_\+tab\mbox{[}int\+\_\+N\mbox{]} \+: tableau de flotant dans lequel nous saisissons nos valeurs \\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+16 Nov. 2017 
+\end{DoxyDate}
+\mbox{\Hypertarget{saisie_8h_a56eeeb19c548488bdd28797786dfe26c}\label{saisie_8h_a56eeeb19c548488bdd28797786dfe26c}} 
+\index{saisie.\+h@{saisie.\+h}!saisie\+Tab\+Vect\+Ent@{saisie\+Tab\+Vect\+Ent}}
+\index{saisie\+Tab\+Vect\+Ent@{saisie\+Tab\+Vect\+Ent}!saisie.\+h@{saisie.\+h}}
+\subsubsection{\texorpdfstring{saisie\+Tab\+Vect\+Ent()}{saisieTabVectEnt()}}
+{\footnotesize\ttfamily void saisie\+Tab\+Vect\+Ent (\begin{DoxyParamCaption}\item[{int}]{tint\+\_\+tab1\mbox{[}int\+\_\+\+N\mbox{]},  }\item[{int}]{tint\+\_\+tab2\mbox{[}int\+\_\+\+N\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Procédure utilisée pour effectuer une saisie de deux vecteurs de dimension 3 d\textquotesingle{}entiers. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em int} & tint\+\_\+tab1\mbox{[}int\+\_\+N\mbox{]} \+: premier vecteur de dimension 3 à saisir \\
+\hline
+{\em int} & tint\+\_\+tab2\mbox{[}int\+\_\+N\mbox{]} \+: deuxième vecteur de dimension 3 à saisir \\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+16 Nov. 2017 
+\end{DoxyDate}

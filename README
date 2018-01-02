@@ -1,0 +1,7 @@
+Bienvenue !
+
+Pour compiler et exécuter le programme TD6, il vous suffit de suivre l'unique étape ci-dessous.
+1ère Étape: Compilation et exécution
+	Ouvrir le terminal dans le dossier racine du programme. Il suffit maintenant 		d'entrer la ligne suivante terminal :
+		make all
+	Cette commande va compiler et exécuter le programme.
