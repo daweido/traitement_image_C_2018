@@ -4,21 +4,27 @@
 
 #include "es.h"
 
-FILE *ouvertureFichierLecture(void) {
+char *nomFichierIn(char **argv) {
+    return (argv[2]);
+}
+
+char *nomFichierOut(char **argv) {
+    return (argv[4]);
+}
+
+FILE *ouvertureFichierLecture(char *pstr_cheminFichier) {
     FILE *fp; /*Objet représentant le fichier*/
 
     /*Ouverture du fichier*/
-    fp = fopen("/Users/davidrigaux/Desktop/ppm.ppm", "r");
+    fp = fopen(pstr_cheminFichier, "r");
+    printf("Success");
 
     /*Retour du fichier*/
     return fp;
 }
 
 
-int recupTypeImage(FILE *fp) {
-    char buff[255]; /**/
-
-    fscanf(fp,"%s\n",buff);
-    printf("%s",buff);
-    return 1;
+char *lectMot(char *mot, FILE *fichier) {
+    fscanf(fichier, "%s\n", mot);
+    return mot;
 }

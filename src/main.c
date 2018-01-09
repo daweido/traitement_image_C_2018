@@ -24,9 +24,12 @@ make all
 /*Inclusion du fichier d'en-tête contenant tous les prototypes de ce fichier*/
 #include "main.h"
 
-int main(int argc ,char** argv) {
+int main(int argc, char **argv) {
+    FILE *fichierIn;
 
-recupTypeImage(ouvertureFichierLecture());
+    fichierIn = ouvertureFichierLecture(nomFichierIn(argv));
+
+    traitementImage(fichierIn);
 
     /*Le programme s'est bien exécuté donc renvoie 0*/
     return 0;

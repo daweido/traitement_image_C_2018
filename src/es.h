@@ -17,6 +17,9 @@ struct sPixel {
     int b;
 };
 
+typedef struct sPixel sPixel;
+
+
 /**
  * \struct sImagePPM
  * \brief Structure décrivant une image PPM (P3)
@@ -25,8 +28,10 @@ struct sImagePPM {
     int hauteur;
     int largeur;
     int valMax;
-    struct sPixel *image;
+    sPixel *image;
 };
+
+typedef struct sImagePPM sPPM;
 
 /**
  * \struct sImagePGM
@@ -36,8 +41,10 @@ struct sImagePGM {
     int hauteur;
     int largeur;
     int valMax;
-    int *pixel;
+    int *image;
 };
+
+typedef struct sImagePGM sPGM;
 
 /**
  * \struct sImagePBM
@@ -46,13 +53,18 @@ struct sImagePGM {
 struct sImagePBM {
     int hauteur;
     int largeur;
-    int *pixel;
+    int *image;
 };
 
+typedef struct sImagePBM sPBM;
 
-FILE* ouvertureFichierLecture(void);
+char *nomFichierIn(char **argv);
 
-int recupTypeImage(FILE *fp);
+char *nomFichierOut(char **argv);
+
+FILE *ouvertureFichierLecture(char* pstr_cheminFichier);
+
+char* lectMot(char *mot, FILE *fichier);
 
 
 #endif //TP13_PROG_PROC_2018_ING1_ES_H

@@ -8,8 +8,7 @@
 #define TD_MAIN_H
 
 /*Déclaration des librairies utilisés ainsi que les fichier d'en-tête*/
-#include "saisie.h"
-#include "es.h"
+#include "traitementImages.h"
 
 /**
  * \fn int main(int argc ,char** argv)
