@@ -25,7 +25,9 @@ make all
 #include "main.h"
 
 int main(int argc ,char** argv) {
-    mainMenu();
+
+recupTypeImage(ouvertureFichierLecture());
+
     /*Le programme s'est bien exécuté donc renvoie 0*/
     return 0;
 }
