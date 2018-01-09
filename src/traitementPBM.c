@@ -26,3 +26,16 @@ sPBM chargementPBM(FILE *fichier) {
 
     return (sPBM_charge);
 }
+
+
+void sauvegardePBM(FILE *fichier, sPBM spbm_image) {
+    int i; /*Compteur Hauteur*/
+
+
+    fprintf(fichier, "P1\n%d %d\n", spbm_image.hauteur, spbm_image.largeur);
+
+    for (i = 0; i < spbm_image.largeur * spbm_image.hauteur; i++) {
+        fprintf(fichier, "%d\n", spbm_image.image[i]);
+    }
+
+}

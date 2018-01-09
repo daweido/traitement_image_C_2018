@@ -10,6 +10,6 @@
 #include "traitementPGM.h"
 #include "traitementPBM.h"
 
-void traitementImage(FILE *fichier);
+void traitementImage(FILE *fichier, char *nomFichierOut);
 
 #endif //TP13_PROG_PROC_2018_ING1_TRAITEMENTIMAGES_H

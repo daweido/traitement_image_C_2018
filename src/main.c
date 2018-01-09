@@ -29,7 +29,7 @@ int main(int argc, char **argv) {
 
     fichierIn = ouvertureFichierLecture(nomFichierIn(argv));
 
-    traitementImage(fichierIn);
+    traitementImage(fichierIn,nomFichierOut(argv));
 
     /*Le programme s'est bien exécuté donc renvoie 0*/
     return 0;

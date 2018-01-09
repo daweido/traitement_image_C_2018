@@ -27,3 +27,16 @@ sPGM chargementPGM(FILE *fichier) {
 
     return (sPGM_charge);
 }
+
+
+void sauvegardePGM(FILE *fichier, sPGM spgm_image) {
+    int i; /*Compteur Hauteur*/
+
+
+    fprintf(fichier, "P2\n%d %d\n%d\n", spgm_image.hauteur, spgm_image.largeur, spgm_image.valMax);
+
+    for (i = 0; i < spgm_image.largeur * spgm_image.hauteur; i++) {
+        fprintf(fichier, "%d\n", spgm_image.image[i]);
+    }
+
+}

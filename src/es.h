@@ -64,6 +64,8 @@ char *nomFichierOut(char **argv);
 
 FILE *ouvertureFichierLecture(char* pstr_cheminFichier);
 
+FILE *ouvertureFichierEcriture(char *pstr_cheminFichier);
+
 char* lectMot(char *mot, FILE *fichier);
 
 

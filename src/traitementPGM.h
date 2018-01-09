@@ -9,4 +9,6 @@
 
 sPGM chargementPGM(FILE *fichier);
 
+void sauvegardePGM(FILE* fichier,sPGM spgm_image);
+
 #endif //TP13_PROG_PROC_2018_ING1_TRAITEMENTPGM_H
