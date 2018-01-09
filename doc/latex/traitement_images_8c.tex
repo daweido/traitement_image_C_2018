@@ -1,0 +1,89 @@
+\hypertarget{traitement_images_8c}{}\section{traitement\+Images.\+c File Reference}
+\label{traitement_images_8c}\index{traitement\+Images.\+c@{traitement\+Images.\+c}}
+
+
+Fichier coordonnant les traitements d\textquotesingle{}images.  
+
+
+{\ttfamily \#include \char`\"{}traitement\+Images.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{traitement_images_8c_ac7b8be4b70a35ba72ecb0650882041fb}{traitement\+Type\+Image}} (F\+I\+LE $\ast$fichier)
+\begin{DoxyCompactList}\small\item\em Fonction reconnaissant le type d\textquotesingle{}image à charger. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{traitement_images_8c_a7481a497c3815b19571a542af8401c0c}{traitement\+Image}} (F\+I\+LE $\ast$fichier, char $\ast$\mbox{\hyperlink{es_8h_a56c939c52dccf2e5f40f9a1f4fe599e6}{nom\+Fichier\+Out}}, int int\+\_\+effet, int int\+\_\+valeur\+Seuillage)
+\begin{DoxyCompactList}\small\item\em Fonction traitant l\textquotesingle{}image (effet et sauvegarde) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Fichier coordonnant les traitements d\textquotesingle{}images. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.fr}{\tt rigauxdavi@eisti.\+fr} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+09 Jan. 2018 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{traitement_images_8c_a7481a497c3815b19571a542af8401c0c}\label{traitement_images_8c_a7481a497c3815b19571a542af8401c0c}} 
+\index{traitement\+Images.\+c@{traitement\+Images.\+c}!traitement\+Image@{traitement\+Image}}
+\index{traitement\+Image@{traitement\+Image}!traitement\+Images.\+c@{traitement\+Images.\+c}}
+\subsubsection{\texorpdfstring{traitement\+Image()}{traitementImage()}}
+{\footnotesize\ttfamily void traitement\+Image (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{fichier,  }\item[{char $\ast$}]{nom\+Fichier\+Out,  }\item[{int}]{int\+\_\+effet,  }\item[{int}]{int\+\_\+valeur\+Seuillage }\end{DoxyParamCaption})}
+
+
+
+Fonction traitant l\textquotesingle{}image (effet et sauvegarde) 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em fichier} & \+: Objet fichier ouvert en mode lecture \\
+\hline
+{\em nom\+Fichier\+Out} & \+: Nom du fichier à sauvegarder \\
+\hline
+{\em int\+\_\+effet} & \+: Numéro de l\textquotesingle{}effet à appliquer \\
+\hline
+{\em int\+\_\+valeur\+Seuillage} & \+: Valeur du seuillage \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{traitement_images_8c_ac7b8be4b70a35ba72ecb0650882041fb}\label{traitement_images_8c_ac7b8be4b70a35ba72ecb0650882041fb}} 
+\index{traitement\+Images.\+c@{traitement\+Images.\+c}!traitement\+Type\+Image@{traitement\+Type\+Image}}
+\index{traitement\+Type\+Image@{traitement\+Type\+Image}!traitement\+Images.\+c@{traitement\+Images.\+c}}
+\subsubsection{\texorpdfstring{traitement\+Type\+Image()}{traitementTypeImage()}}
+{\footnotesize\ttfamily int traitement\+Type\+Image (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{fichier }\end{DoxyParamCaption})}
+
+
+
+Fonction reconnaissant le type d\textquotesingle{}image à charger. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em fichier} & \+: Objet fichier ouvert en mode lecture \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+format d\textquotesingle{}image 
+\end{DoxyReturn}

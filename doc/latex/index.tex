@@ -1,6 +1,15 @@
 \hypertarget{index_intro_sec}{}\section{Introduction}\label{index_intro_sec}
 Voici la page d\textquotesingle{}accueil de ma documentation Doxygen. \hypertarget{index_howto_sec}{}\section{Comment utiliser}\label{index_howto_sec}
-\hypertarget{index_etape1}{}\subsection{1ère Étape\+: Compilation et exécution}\label{index_etape1}
-Ouvrir le terminal dans le dossier racine du programme. Il suffit maintenant d\textquotesingle{}entrer la ligne suivante terminal \+: \begin{DoxyVerb}make all
+Pour compiler et exécuter le programme T\+D6, il vous suffit de suivre l\textquotesingle{}unique étape ci-\/dessous. \hypertarget{index_etape1}{}\subsection{1ère Étape\+: Compilation}\label{index_etape1}
+Ouvrir le terminal dans le dossier racine du programme. Il suffit maintenant d\textquotesingle{}entrer la ligne suivante terminal \+:
+
+\begin{DoxyVerb}make all
 \end{DoxyVerb}
- Cette commande va compiler et exécuter le programme. 
+ Cette commande va compiler le programme. \hypertarget{index_etape2}{}\subsection{2ème Étape \+: Exécution}\label{index_etape2}
+Dirigez-\/vous maintenant dans le dossier\begin{DoxyVerb}bin/ \end{DoxyVerb}
+ et lancer la commande suivante dans le terminal \+:\begin{DoxyVerb}./main -in fichierIn -out fichierOut -arg1 arg2 \end{DoxyVerb}
+. \begin{DoxyVerb}arg1 \end{DoxyVerb}
+ \+:\begin{DoxyVerb}-gris \end{DoxyVerb}
+ (Niveau de gris )ou\begin{DoxyVerb}-seuil \end{DoxyVerb}
+ (Seuillage) \begin{DoxyVerb}arg2 \end{DoxyVerb}
+ \+: Valeur de seuillage si seuillage demandé 

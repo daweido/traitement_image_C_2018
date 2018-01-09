@@ -1,0 +1,243 @@
+\hypertarget{es_8c}{}\section{es.\+c File Reference}
+\label{es_8c}\index{es.\+c@{es.\+c}}
+
+
+Fichier effectuant les entrées et sorties avec les fichiers.  
+
+
+{\ttfamily \#include \char`\"{}es.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+char $\ast$ \mbox{\hyperlink{es_8c_a71257b4950f91805cc57f9bbfbfa2676}{nom\+Fichier\+In}} (char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Foction retournant le fichier à charger. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{es_8c_a7c738f60359aed2707c694d5638b129c}{nom\+Fichier\+Out}} (char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Foction retournant le fichier à sauvegarder. \end{DoxyCompactList}\item 
+F\+I\+LE $\ast$ \mbox{\hyperlink{es_8c_ad51d0cf26d7a751610fc2895f6752ce5}{ouverture\+Fichier\+Lecture}} (char $\ast$pstr\+\_\+chemin\+Fichier)
+\begin{DoxyCompactList}\small\item\em Fonction ouvrant un fichier en mode lecture. \end{DoxyCompactList}\item 
+F\+I\+LE $\ast$ \mbox{\hyperlink{es_8c_a5e47e273173bd873562dbb32a898dc04}{ouverture\+Fichier\+Ecriture}} (char $\ast$pstr\+\_\+chemin\+Fichier)
+\begin{DoxyCompactList}\small\item\em Fonction ouvrant un fichier en mode écriture. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{es_8c_a406eb1c459cac00ea09a62ced2a9a4ee}{lect\+Mot}} (char $\ast$mot, F\+I\+LE $\ast$fichier)
+\begin{DoxyCompactList}\small\item\em Fonction lisant un mot dans un fichier et le sauvegarde dans un pointeur. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{es_8c_acd8e63de59074294a340a50fbc613c90}{differentitation\+Effets}} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Fonction faisant la différentiation entre les effets à appliquer. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{es_8c_a28b3c916ca65cee327fb89d0edf57722}{presence\+Effet}} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Fonction vérifiant la présence d\textquotesingle{}argument contenant un effet. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Fichier effectuant les entrées et sorties avec les fichiers. 
+
+Fichier de fonctions de traitement des fichiers P\+PM (P3)
+
+Fichier de fonctions de traitement des fichiers P\+GM (P2)
+
+Fichier de fonctions de traitement des fichiers P\+BM (P1)
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.fr}{\tt rigauxdavi@eisti.\+fr} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+09 Jan. 2018 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{es_8c_acd8e63de59074294a340a50fbc613c90}\label{es_8c_acd8e63de59074294a340a50fbc613c90}} 
+\index{es.\+c@{es.\+c}!differentitation\+Effets@{differentitation\+Effets}}
+\index{differentitation\+Effets@{differentitation\+Effets}!es.\+c@{es.\+c}}
+\subsubsection{\texorpdfstring{differentitation\+Effets()}{differentitationEffets()}}
+{\footnotesize\ttfamily int differentitation\+Effets (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Fonction faisant la différentiation entre les effets à appliquer. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & \+: Nombre d\textquotesingle{}arguments dans la commande \\
+\hline
+{\em argv} & \+: Tableaux d\textquotesingle{}arguments dans la commande \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retourne l\textquotesingle{}effet à appliqer 
+\end{DoxyReturn}
+\mbox{\Hypertarget{es_8c_a406eb1c459cac00ea09a62ced2a9a4ee}\label{es_8c_a406eb1c459cac00ea09a62ced2a9a4ee}} 
+\index{es.\+c@{es.\+c}!lect\+Mot@{lect\+Mot}}
+\index{lect\+Mot@{lect\+Mot}!es.\+c@{es.\+c}}
+\subsubsection{\texorpdfstring{lect\+Mot()}{lectMot()}}
+{\footnotesize\ttfamily char $\ast$ lect\+Mot (\begin{DoxyParamCaption}\item[{char $\ast$}]{mot,  }\item[{F\+I\+LE $\ast$}]{fichier }\end{DoxyParamCaption})}
+
+
+
+Fonction lisant un mot dans un fichier et le sauvegarde dans un pointeur. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em mot} & \+: Pointeur du mot dans le quel il est sauvegardé \\
+\hline
+{\em fichier} & \+: Fichier ouvert en mode lecture \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Chaîne de caractères 
+\end{DoxyReturn}
+\mbox{\Hypertarget{es_8c_a71257b4950f91805cc57f9bbfbfa2676}\label{es_8c_a71257b4950f91805cc57f9bbfbfa2676}} 
+\index{es.\+c@{es.\+c}!nom\+Fichier\+In@{nom\+Fichier\+In}}
+\index{nom\+Fichier\+In@{nom\+Fichier\+In}!es.\+c@{es.\+c}}
+\subsubsection{\texorpdfstring{nom\+Fichier\+In()}{nomFichierIn()}}
+{\footnotesize\ttfamily char $\ast$ nom\+Fichier\+In (\begin{DoxyParamCaption}\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Foction retournant le fichier à charger. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em argv} & \+: Arguments de commande \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nom du fichier d\textquotesingle{}entrée 
+\end{DoxyReturn}
+\mbox{\Hypertarget{es_8c_a7c738f60359aed2707c694d5638b129c}\label{es_8c_a7c738f60359aed2707c694d5638b129c}} 
+\index{es.\+c@{es.\+c}!nom\+Fichier\+Out@{nom\+Fichier\+Out}}
+\index{nom\+Fichier\+Out@{nom\+Fichier\+Out}!es.\+c@{es.\+c}}
+\subsubsection{\texorpdfstring{nom\+Fichier\+Out()}{nomFichierOut()}}
+{\footnotesize\ttfamily char $\ast$ nom\+Fichier\+Out (\begin{DoxyParamCaption}\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Foction retournant le fichier à sauvegarder. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em argv} & \+: Arguments de commande \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nom du fichier à sauvegarder 
+\end{DoxyReturn}
+\mbox{\Hypertarget{es_8c_a5e47e273173bd873562dbb32a898dc04}\label{es_8c_a5e47e273173bd873562dbb32a898dc04}} 
+\index{es.\+c@{es.\+c}!ouverture\+Fichier\+Ecriture@{ouverture\+Fichier\+Ecriture}}
+\index{ouverture\+Fichier\+Ecriture@{ouverture\+Fichier\+Ecriture}!es.\+c@{es.\+c}}
+\subsubsection{\texorpdfstring{ouverture\+Fichier\+Ecriture()}{ouvertureFichierEcriture()}}
+{\footnotesize\ttfamily F\+I\+LE $\ast$ ouverture\+Fichier\+Ecriture (\begin{DoxyParamCaption}\item[{char $\ast$}]{pstr\+\_\+chemin\+Fichier }\end{DoxyParamCaption})}
+
+
+
+Fonction ouvrant un fichier en mode écriture. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em pstr\+\_\+chemin\+Fichier} & \+: Chemin vers le fichier à ouvrir \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Objet fichier ouvert en mode écriture 
+\end{DoxyReturn}
+\mbox{\Hypertarget{es_8c_ad51d0cf26d7a751610fc2895f6752ce5}\label{es_8c_ad51d0cf26d7a751610fc2895f6752ce5}} 
+\index{es.\+c@{es.\+c}!ouverture\+Fichier\+Lecture@{ouverture\+Fichier\+Lecture}}
+\index{ouverture\+Fichier\+Lecture@{ouverture\+Fichier\+Lecture}!es.\+c@{es.\+c}}
+\subsubsection{\texorpdfstring{ouverture\+Fichier\+Lecture()}{ouvertureFichierLecture()}}
+{\footnotesize\ttfamily F\+I\+LE $\ast$ ouverture\+Fichier\+Lecture (\begin{DoxyParamCaption}\item[{char $\ast$}]{pstr\+\_\+chemin\+Fichier }\end{DoxyParamCaption})}
+
+
+
+Fonction ouvrant un fichier en mode lecture. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em pstr\+\_\+chemin\+Fichier} & \+: Chemin vers le fichier à ouvrir \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Objet fichier ouvert en mode lecture 
+\end{DoxyReturn}
+\mbox{\Hypertarget{es_8c_a28b3c916ca65cee327fb89d0edf57722}\label{es_8c_a28b3c916ca65cee327fb89d0edf57722}} 
+\index{es.\+c@{es.\+c}!presence\+Effet@{presence\+Effet}}
+\index{presence\+Effet@{presence\+Effet}!es.\+c@{es.\+c}}
+\subsubsection{\texorpdfstring{presence\+Effet()}{presenceEffet()}}
+{\footnotesize\ttfamily int presence\+Effet (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Fonction vérifiant la présence d\textquotesingle{}argument contenant un effet. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & \+: Nombre d\textquotesingle{}arguments \\
+\hline
+{\em argv} & \+: Tableau d\textquotesingle{}arguments \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Si argument supplémentaire présent, renvoie le numéro de l\textquotesingle{}effet sinon renvoie -\/1 
+\end{DoxyReturn}

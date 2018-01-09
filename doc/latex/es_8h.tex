@@ -1,0 +1,348 @@
+\hypertarget{es_8h}{}\section{es.\+h File Reference}
+\label{es_8h}\index{es.\+h@{es.\+h}}
+
+
+Fichier d\textquotesingle{}en-\/tête du fichier \mbox{\hyperlink{es_8c}{es.\+c}}.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structs_pixel}{s\+Pixel}}
+\begin{DoxyCompactList}\small\item\em Structure décrivant un pixel d\textquotesingle{}une image. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structs_image_p_p_m}{s\+Image\+P\+PM}}
+\begin{DoxyCompactList}\small\item\em Structure décrivant une image P\+PM (P3) \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structs_image_p_g_m}{s\+Image\+P\+GM}}
+\begin{DoxyCompactList}\small\item\em Structure décrivant une image P\+GM (P2) \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structs_image_p_b_m}{s\+Image\+P\+BM}}
+\begin{DoxyCompactList}\small\item\em Structure décrivant une image P\+BM (P1) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{structs_pixel}{s\+Pixel}} \mbox{\hyperlink{es_8h_acc6619a3333cdb40b0c1a81a8d5014f9}{s\+Pixel}}
+\begin{DoxyCompactList}\small\item\em Renommage de la structure. \end{DoxyCompactList}\item 
+typedef struct \mbox{\hyperlink{structs_image_p_p_m}{s\+Image\+P\+PM}} \mbox{\hyperlink{es_8h_aaa5876605f8a09b09a4f71f22c24b074}{s\+P\+PM}}
+\begin{DoxyCompactList}\small\item\em Renommage de la structure. \end{DoxyCompactList}\item 
+typedef struct \mbox{\hyperlink{structs_image_p_g_m}{s\+Image\+P\+GM}} \mbox{\hyperlink{es_8h_a844850982e7bdabd1f16f41a514608b4}{s\+P\+GM}}
+\begin{DoxyCompactList}\small\item\em Renommage de la structure. \end{DoxyCompactList}\item 
+typedef struct \mbox{\hyperlink{structs_image_p_b_m}{s\+Image\+P\+BM}} \mbox{\hyperlink{es_8h_a74bdecb39806695b5571ee706a53b410}{s\+P\+BM}}
+\begin{DoxyCompactList}\small\item\em Renommage de la structure. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+char $\ast$ \mbox{\hyperlink{es_8h_acbe1a7051e2469163a7618a6ad962974}{nom\+Fichier\+In}} (char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Foction retournant le fichier à charger. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{es_8h_a56c939c52dccf2e5f40f9a1f4fe599e6}{nom\+Fichier\+Out}} (char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Foction retournant le fichier à sauvegarder. \end{DoxyCompactList}\item 
+F\+I\+LE $\ast$ \mbox{\hyperlink{es_8h_a233e562bb4bc8dcb417bdd451b4fe893}{ouverture\+Fichier\+Lecture}} (char $\ast$pstr\+\_\+chemin\+Fichier)
+\begin{DoxyCompactList}\small\item\em Fonction ouvrant un fichier en mode lecture. \end{DoxyCompactList}\item 
+F\+I\+LE $\ast$ \mbox{\hyperlink{es_8h_abfcea4d1d5b8dc55e716fff8648ce5b6}{ouverture\+Fichier\+Ecriture}} (char $\ast$pstr\+\_\+chemin\+Fichier)
+\begin{DoxyCompactList}\small\item\em Fonction ouvrant un fichier en mode écriture. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{es_8h_a2e75e4d9f325d443dba1428323fdbbdd}{lect\+Mot}} (char $\ast$mot, F\+I\+LE $\ast$fichier)
+\begin{DoxyCompactList}\small\item\em Fonction lisant un mot dans un fichier et le sauvegarde dans un pointeur. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{es_8h_acd8e63de59074294a340a50fbc613c90}{differentitation\+Effets}} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Fonction faisant la différentiation entre les effets à appliquer. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{es_8h_a28b3c916ca65cee327fb89d0edf57722}{presence\+Effet}} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Fonction vérifiant la présence d\textquotesingle{}argument contenant un effet. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Fichier d\textquotesingle{}en-\/tête du fichier \mbox{\hyperlink{es_8c}{es.\+c}}. 
+
+Fichier d\textquotesingle{}en-\/tête du fichier traitement\+P\+P\+M.\+c.
+
+Fichier d\textquotesingle{}en-\/tête du fichier traitement\+P\+G\+M.\+c.
+
+Fichier d\textquotesingle{}en-\/tête du fichier traitement\+P\+B\+M.\+c.
+
+Fichier d\textquotesingle{}en-\/tête du fichier \mbox{\hyperlink{traitement_images_8c}{traitement\+Images.\+c}}.
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.fr}{\tt rigauxdavi@eisti.\+fr} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+09 Jan. 2018 
+\end{DoxyDate}
+
+
+\subsection{Typedef Documentation}
+\mbox{\Hypertarget{es_8h_a74bdecb39806695b5571ee706a53b410}\label{es_8h_a74bdecb39806695b5571ee706a53b410}} 
+\index{es.\+h@{es.\+h}!s\+P\+BM@{s\+P\+BM}}
+\index{s\+P\+BM@{s\+P\+BM}!es.\+h@{es.\+h}}
+\subsubsection{\texorpdfstring{s\+P\+BM}{sPBM}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structs_image_p_b_m}{s\+Image\+P\+BM}} \mbox{\hyperlink{es_8h_a74bdecb39806695b5571ee706a53b410}{s\+P\+BM}}}
+
+
+
+Renommage de la structure. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+\mbox{\Hypertarget{es_8h_a844850982e7bdabd1f16f41a514608b4}\label{es_8h_a844850982e7bdabd1f16f41a514608b4}} 
+\index{es.\+h@{es.\+h}!s\+P\+GM@{s\+P\+GM}}
+\index{s\+P\+GM@{s\+P\+GM}!es.\+h@{es.\+h}}
+\subsubsection{\texorpdfstring{s\+P\+GM}{sPGM}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structs_image_p_g_m}{s\+Image\+P\+GM}} \mbox{\hyperlink{es_8h_a844850982e7bdabd1f16f41a514608b4}{s\+P\+GM}}}
+
+
+
+Renommage de la structure. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+\mbox{\Hypertarget{es_8h_acc6619a3333cdb40b0c1a81a8d5014f9}\label{es_8h_acc6619a3333cdb40b0c1a81a8d5014f9}} 
+\index{es.\+h@{es.\+h}!s\+Pixel@{s\+Pixel}}
+\index{s\+Pixel@{s\+Pixel}!es.\+h@{es.\+h}}
+\subsubsection{\texorpdfstring{s\+Pixel}{sPixel}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structs_pixel}{s\+Pixel}} \mbox{\hyperlink{structs_pixel}{s\+Pixel}}}
+
+
+
+Renommage de la structure. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+\mbox{\Hypertarget{es_8h_aaa5876605f8a09b09a4f71f22c24b074}\label{es_8h_aaa5876605f8a09b09a4f71f22c24b074}} 
+\index{es.\+h@{es.\+h}!s\+P\+PM@{s\+P\+PM}}
+\index{s\+P\+PM@{s\+P\+PM}!es.\+h@{es.\+h}}
+\subsubsection{\texorpdfstring{s\+P\+PM}{sPPM}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structs_image_p_p_m}{s\+Image\+P\+PM}} \mbox{\hyperlink{es_8h_aaa5876605f8a09b09a4f71f22c24b074}{s\+P\+PM}}}
+
+
+
+Renommage de la structure. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{es_8h_acd8e63de59074294a340a50fbc613c90}\label{es_8h_acd8e63de59074294a340a50fbc613c90}} 
+\index{es.\+h@{es.\+h}!differentitation\+Effets@{differentitation\+Effets}}
+\index{differentitation\+Effets@{differentitation\+Effets}!es.\+h@{es.\+h}}
+\subsubsection{\texorpdfstring{differentitation\+Effets()}{differentitationEffets()}}
+{\footnotesize\ttfamily int differentitation\+Effets (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Fonction faisant la différentiation entre les effets à appliquer. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & \+: Nombre d\textquotesingle{}arguments dans la commande \\
+\hline
+{\em argv} & \+: Tableaux d\textquotesingle{}arguments dans la commande \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retourne l\textquotesingle{}effet à appliqer 
+\end{DoxyReturn}
+\mbox{\Hypertarget{es_8h_a2e75e4d9f325d443dba1428323fdbbdd}\label{es_8h_a2e75e4d9f325d443dba1428323fdbbdd}} 
+\index{es.\+h@{es.\+h}!lect\+Mot@{lect\+Mot}}
+\index{lect\+Mot@{lect\+Mot}!es.\+h@{es.\+h}}
+\subsubsection{\texorpdfstring{lect\+Mot()}{lectMot()}}
+{\footnotesize\ttfamily char$\ast$ lect\+Mot (\begin{DoxyParamCaption}\item[{char $\ast$}]{mot,  }\item[{F\+I\+LE $\ast$}]{fichier }\end{DoxyParamCaption})}
+
+
+
+Fonction lisant un mot dans un fichier et le sauvegarde dans un pointeur. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em mot} & \+: Pointeur du mot dans le quel il est sauvegardé \\
+\hline
+{\em fichier} & \+: Fichier ouvert en mode lecture \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Chaîne de caractères 
+\end{DoxyReturn}
+\mbox{\Hypertarget{es_8h_acbe1a7051e2469163a7618a6ad962974}\label{es_8h_acbe1a7051e2469163a7618a6ad962974}} 
+\index{es.\+h@{es.\+h}!nom\+Fichier\+In@{nom\+Fichier\+In}}
+\index{nom\+Fichier\+In@{nom\+Fichier\+In}!es.\+h@{es.\+h}}
+\subsubsection{\texorpdfstring{nom\+Fichier\+In()}{nomFichierIn()}}
+{\footnotesize\ttfamily char$\ast$ nom\+Fichier\+In (\begin{DoxyParamCaption}\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Foction retournant le fichier à charger. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em argv} & \+: Arguments de commande \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nom du fichier d\textquotesingle{}entrée 
+\end{DoxyReturn}
+\mbox{\Hypertarget{es_8h_a56c939c52dccf2e5f40f9a1f4fe599e6}\label{es_8h_a56c939c52dccf2e5f40f9a1f4fe599e6}} 
+\index{es.\+h@{es.\+h}!nom\+Fichier\+Out@{nom\+Fichier\+Out}}
+\index{nom\+Fichier\+Out@{nom\+Fichier\+Out}!es.\+h@{es.\+h}}
+\subsubsection{\texorpdfstring{nom\+Fichier\+Out()}{nomFichierOut()}}
+{\footnotesize\ttfamily char$\ast$ nom\+Fichier\+Out (\begin{DoxyParamCaption}\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Foction retournant le fichier à sauvegarder. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em argv} & \+: Arguments de commande \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nom du fichier à sauvegarder 
+\end{DoxyReturn}
+\mbox{\Hypertarget{es_8h_abfcea4d1d5b8dc55e716fff8648ce5b6}\label{es_8h_abfcea4d1d5b8dc55e716fff8648ce5b6}} 
+\index{es.\+h@{es.\+h}!ouverture\+Fichier\+Ecriture@{ouverture\+Fichier\+Ecriture}}
+\index{ouverture\+Fichier\+Ecriture@{ouverture\+Fichier\+Ecriture}!es.\+h@{es.\+h}}
+\subsubsection{\texorpdfstring{ouverture\+Fichier\+Ecriture()}{ouvertureFichierEcriture()}}
+{\footnotesize\ttfamily F\+I\+LE$\ast$ ouverture\+Fichier\+Ecriture (\begin{DoxyParamCaption}\item[{char $\ast$}]{pstr\+\_\+chemin\+Fichier }\end{DoxyParamCaption})}
+
+
+
+Fonction ouvrant un fichier en mode écriture. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em pstr\+\_\+chemin\+Fichier} & \+: Chemin vers le fichier à ouvrir \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Objet fichier ouvert en mode écriture 
+\end{DoxyReturn}
+\mbox{\Hypertarget{es_8h_a233e562bb4bc8dcb417bdd451b4fe893}\label{es_8h_a233e562bb4bc8dcb417bdd451b4fe893}} 
+\index{es.\+h@{es.\+h}!ouverture\+Fichier\+Lecture@{ouverture\+Fichier\+Lecture}}
+\index{ouverture\+Fichier\+Lecture@{ouverture\+Fichier\+Lecture}!es.\+h@{es.\+h}}
+\subsubsection{\texorpdfstring{ouverture\+Fichier\+Lecture()}{ouvertureFichierLecture()}}
+{\footnotesize\ttfamily F\+I\+LE$\ast$ ouverture\+Fichier\+Lecture (\begin{DoxyParamCaption}\item[{char $\ast$}]{pstr\+\_\+chemin\+Fichier }\end{DoxyParamCaption})}
+
+
+
+Fonction ouvrant un fichier en mode lecture. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em pstr\+\_\+chemin\+Fichier} & \+: Chemin vers le fichier à ouvrir \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Objet fichier ouvert en mode lecture 
+\end{DoxyReturn}
+\mbox{\Hypertarget{es_8h_a28b3c916ca65cee327fb89d0edf57722}\label{es_8h_a28b3c916ca65cee327fb89d0edf57722}} 
+\index{es.\+h@{es.\+h}!presence\+Effet@{presence\+Effet}}
+\index{presence\+Effet@{presence\+Effet}!es.\+h@{es.\+h}}
+\subsubsection{\texorpdfstring{presence\+Effet()}{presenceEffet()}}
+{\footnotesize\ttfamily int presence\+Effet (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Fonction vérifiant la présence d\textquotesingle{}argument contenant un effet. 
+
+\begin{DoxyAuthor}{Author}
+David Rigaux \href{mailto:rigauxdavi@eisti.eu}{\tt rigauxdavi@eisti.\+eu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+9 Jan. 2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & \+: Nombre d\textquotesingle{}arguments \\
+\hline
+{\em argv} & \+: Tableau d\textquotesingle{}arguments \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Si argument supplémentaire présent, renvoie le numéro de l\textquotesingle{}effet sinon renvoie -\/1 
+\end{DoxyReturn}
